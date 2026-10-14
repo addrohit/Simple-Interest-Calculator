@@ -1,16 +1,27 @@
 # Simple Interest Calculator
 
-A simple web application to calculate simple interest based on the principal amount, interest rate, and number of years.
+A calculator that calculates simple interest given principal, annual rate of interest and time period in years.
 
-## Features
+## Overview
 
-- Input principal amount with positive value validation
-- Adjustable interest rate slider with dynamic display
-- Selection for duration in years
-- Computation of total interest earned and future target year
+This project provides a simple interest calculator based on the standard formula:
 
-## Technologies
+Simple Interest = (Principal * Rate * Time) / 100
 
-- HTML5
-- CSS3
-- JavaScript
+### Input:
+- **p**: Principal amount
+- **t**: Time period in years
+- **r**: Annual rate of interest
+
+### Output:
+- Simple interest earned over the specified duration.
+
+## Usage
+
+To run the simple interest script:
+
+```bash
+bash simple-interest.sh
+```
+
+Follow the on-screen prompts to enter the principal amount, annual rate of interest, and time period in years.
